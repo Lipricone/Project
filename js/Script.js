@@ -6,6 +6,10 @@ const options={
     colors:{
         border: 'Black',
         bg: 'red'
+    },
+    makeTest: function(){
+        console.log("Test");
     }
 };
+options.makeTest();
 console.log(Object.keys(options).length);
