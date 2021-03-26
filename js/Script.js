@@ -10,11 +10,9 @@ const options={
 };
 // console.log(options.width);
 // delete options.name;
-
 // console.log(options);
-
 for (let key in options){
-    if (typeof(options[key]==='object')){ 
+    if (typeof(options[key]) === 'object'){ 
         for(let i in options[key]){
             console.log (`Свойство ${i} имеет значение ${options[key][i]}`);
         }
